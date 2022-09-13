@@ -6,9 +6,9 @@ RSpec.describe 'count_words method' do
     expect(result).to eq 0
   end
 
-  it 'Returns the length when string of length is given' do
+  it 'Returns the number of words when string of length is given' do
     result = count_words('hello world')
-    expect(result).to eq 11
+    expect(result).to eq 2
   end
 
   context 'number is given' do
