@@ -5,5 +5,3 @@ def count_words(string)
   
   string.split(' ').length
 end
-
-puts count_words("hello world")

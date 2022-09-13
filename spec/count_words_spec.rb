@@ -13,7 +13,7 @@ RSpec.describe 'count_words method' do
 
   context 'number is given' do
     it 'throws an error' do
-      expect { count_words(12) } raise_error 'Number provided instead of string'
+      expect { count_words(12) }.to raise_error 'Number provided instead of string'
     end
   end
 end
