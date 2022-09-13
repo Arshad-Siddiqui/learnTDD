@@ -2,8 +2,8 @@ require 'make_snippet'
 
 RSpec.describe 'make_snippet method' do
   it 'returns the same string if 5 words long' do
-    result = make_snippet('a sentence shorter than 5')
-    expect(result).to eq 'a sentence shorter than 5'
+    result = make_snippet('a sentence long as 5')
+    expect(result).to eq 'a sentence long as 5'
   end
 
   it 'returns the same string if less than 5 words long' do
